@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inconsolata", monospace;
+  background: rgb(163, 58, 180);
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0) 1%,
+    rgb(131, 44, 207) 80%,
+    rgba(0, 0, 0, 1) 89%
+  );
+  height: 100dvh;
+  width: 100%;
+}
